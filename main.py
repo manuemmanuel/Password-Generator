@@ -38,5 +38,8 @@ repeat_label.place(x=10, y=50)
 repeat_entry = ctk.CTkEntry(password_gen)
 repeat_entry.place(x=230, y=50)
 
+generate_button = ctk.CTkButton(password_gen, text="Generate Password", command=generate_password)
+generate_button.place(x=10, y=90)
+
 
 
