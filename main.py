@@ -41,5 +41,5 @@ repeat_entry.place(x=230, y=50)
 generate_button = ctk.CTkButton(password_gen, text="Generate Password", command=generate_password)
 generate_button.place(x=10, y=90)
 
-
-
+copy_button = ctk.CTkButton(password_gen, text="Copy Password", command=copy_password)
+copy_button.place(x=230, y=90)
