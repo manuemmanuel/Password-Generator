@@ -22,3 +22,8 @@ def generate_password():
         password = ''.join(random.choices(character_string, k=length))
     
     password_v.set("Created password: " + password)
+
+def copy_password():
+    password_gen.clipboard_clear()
+    password_gen.clipboard_append(password_v.get().replace("Created password: ", ""))
+    messagebox.showinfo(message="Password copied to clipboard!")
