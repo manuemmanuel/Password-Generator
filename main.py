@@ -46,4 +46,4 @@ copy_button.place(x=230, y=90)
 password_v = ctk.StringVar()
 password_label = ctk.CTkEntry(password_gen, textvariable=password_v, state="readonly", width=360, height=30)
 password_label.place(x=10, y=140)
-
+password_gen.mainloop()
