@@ -27,3 +27,9 @@ def copy_password():
     password_gen.clipboard_clear()
     password_gen.clipboard_append(password_v.get().replace("Created password: ", ""))
     messagebox.showinfo(message="Password copied to clipboard!")
+
+length_label = ctk.CTkLabel(password_gen, text="Length of password:")
+length_label.place(x=10, y=10)
+length_entry = ctk.CTkEntry(password_gen)
+length_entry.place(x=230, y=10)
+
