@@ -33,3 +33,10 @@ length_label.place(x=10, y=10)
 length_entry = ctk.CTkEntry(password_gen)
 length_entry.place(x=230, y=10)
 
+repeat_label = ctk.CTkLabel(password_gen, text="Unique characters (1: Yes, 0: No):")
+repeat_label.place(x=10, y=50)
+repeat_entry = ctk.CTkEntry(password_gen)
+repeat_entry.place(x=230, y=50)
+
+
+
