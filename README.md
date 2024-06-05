@@ -23,4 +23,10 @@ This is a Password Generator application built using Python with the `customtkin
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/manuemmanuel/Password-Generator.git
+   cd Password-Generator
+   ```
+2. Run the application:
+   ```bash
+   python3 main.py
+   
